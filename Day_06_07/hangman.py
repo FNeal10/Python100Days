@@ -7,7 +7,7 @@ end_game = False
 print('THE WORD IS')
 display = []
 for _ in range(len(chosen_word)):
-    display += "_"
+    display += "__"
 print(display)
 
 while end_game == False:
